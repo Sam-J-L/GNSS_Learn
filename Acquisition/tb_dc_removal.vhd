@@ -18,7 +18,7 @@ architecture sim of tb_dc_removal is
 begin
 
   process
-    file infile : text open read_mode is "C:\Users\KAR\Desktop\signal0dc.txt";
+    file infile : text open read_mode is "C:\Users\Desktop\signal0dc.txt";
     variable L : line;
     variable re_val, im_val : real;
     variable mean_re, mean_im : real := 0.0;
@@ -64,3 +64,4 @@ begin
   end process;
 
 end architecture;
+
