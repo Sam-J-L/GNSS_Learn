@@ -16,7 +16,7 @@ end entity;
 architecture sim of new_a_fft_cacode is
 begin
   file_read_process: process
-    file infile    : text open read_mode is "C:\Users\KAR\Desktop\8192_ca.code.txt";
+    file infile    : text open read_mode is "C:\Users\Desktop\8192_ca.code.txt";
     variable L      : line;
     variable prnNum : integer;
     variable idx    : integer;
@@ -47,3 +47,4 @@ begin
     wait;
   end process;
 end architecture;
+
