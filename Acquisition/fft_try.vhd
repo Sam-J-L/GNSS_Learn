@@ -73,8 +73,8 @@ sognalDC: entity work.tb_dc_removal
 ---------------------------
   main_proc: process
     -- files
-    file f1       : text open read_mode is "C:\Users\KAR\Desktop\new_sample_signal1.txt";	-- will change to differant form 
-    file f2       : text open read_mode is "C:\Users\KAR\Desktop\new_sample_signal2.txt";
+    file f1       : text open read_mode is "C:\Users\Desktop\new_sample_signal1.txt";	
+    file f2       : text open read_mode is "C:\Users\Desktop\new_sample_signal2.txt";
     variable L        : line;
     variable re_tmp   : real;
     variable im_tmp   : real;
@@ -458,3 +458,4 @@ end architecture;
 --report "samplesPerCodeChip=  "& integer'image(samplesPerCodeChip);
 	--report "excludeRangeIndex1=  "& integer'image(excludeRangeIndex1);
 	--report "excludeRangeIndex2=  "& integer'image(excludeRangeIndex2);
+
